@@ -27,7 +27,7 @@ switch(number) {
     document.getElementById("one").innerHTML = ("Iphone 5 'The biggest thing to happen to iPhone since iPhone'" + "</br>" + "<img src='images/iphone5.jpg' width='538' height='406'>");
     break;
     case "7" :
-    document.getElementById("one").innerHTML = ("Iphone 5s 'Forward Thinking" + "</br>" + "<img src='images/iphone5s.jpg' width='538' height='406'>");
+    document.getElementById("one").innerHTML = ("Iphone 5s 'Forward Thinking'" + "</br>" + "<img src='images/iphone5s.jpg' width='538' height='406'>");
     break;
     case "8" :
     document.getElementById("one").innerHTML = ("Iphone 5c 'For the colorful'" + "</br>" + "<img src='images/iphone5c.jpg' width='538' height='406'>");
