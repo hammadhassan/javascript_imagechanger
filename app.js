@@ -9,7 +9,8 @@ function random() {
     //num = [];
     //alert(num);
     var number = num;
-    alert(number);
+    //alert(number);
+    //number=1;
 switch(number) {
     case 1 :
     document.getElementById("one").innerHTML = ("Original-iphone" + "<img src='images/iphone-original.jpg' width='538' height='406'>");
