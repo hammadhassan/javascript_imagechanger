@@ -7,10 +7,10 @@ function random() {
     var phonenum = Math.floor(phone);
     num.push(phonenum);    
     //num = [];
-    //var number = num;+
     //alert(num);
-    var stat = num;
-switch(stat) {
+    var number = num;
+    alert(number);
+switch(number) {
     case 1 :
     document.getElementById("one").innerHTML = ("Original-iphone" + "<img src='images/iphone-original.jpg' width='538' height='406'>");
     break;
