@@ -1,15 +1,16 @@
-var num = [];
+//var num = [];
 function random() {
-    //var num = [];
-    var randomnum = Math.random();
-    var phone = ((randomnum * 15) + 1);
+    //alert("test");
+    var num = [];
+    var num1 = Math.random();
+    var phone = ((num1 * 15) + 1);
     var phonenum = Math.floor(phone);
     num.push(phonenum);    
     //num = [];
-}
-
-var number = num;
-switch(number) {
+    //var number = num;+
+    //alert(num);
+    var stat = num;
+switch(stat) {
     case 1 :
     document.getElementById("one").innerHTML = ("Original-iphone" + "<img src='images/iphone-original.jpg' width='538' height='406'>");
     break;
@@ -57,4 +58,5 @@ switch(number) {
     break;
     default :
     document.getElementById("one").innerHTML = ("This is 7" + "<img src='images/iphone7.jpg' width='538' height='406'>");
+    }
 }
