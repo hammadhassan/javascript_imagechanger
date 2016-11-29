@@ -1,3 +1,33 @@
 body {
-    background-color: #F2E1CF;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+button {
+    border-radius: 11px;
+    background-color: midnightblue;
+    color: white;
+    height: 49px;
+    border: none;
+    font-size: 16px;
+}
+.cont {
+    height: 900px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#one {
+    font-size: 18px;;
+    font-style: oblique;
+    color: #F2E1CF;
+    font-weight: bold;
+    margin: 0 auto;     
+}
+h1 {
+    font-size: 24px;;
+    font-style: oblique;
+    color: #F2E1CF;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #65C4D6;
 }
