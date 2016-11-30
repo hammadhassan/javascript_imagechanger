@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    /*background-color: #999999;*/
     font-family: sans-serif;
 }
 button {
@@ -11,23 +11,43 @@ button {
     font-size: 16px;
 }
 .cont {
-    height: 900px;
-    width: 1200px;
+    height: 595px;
+    width: 900px;
     margin: 0 auto;
 }
 #one {
     font-size: 18px;;
     font-style: oblique;
-    color: #F2E1CF;
+    /*color: #F2E1CF;*/
     font-weight: bold;
-    margin: 0 auto;     
+    margin: 0 auto;
+    padding-left: 7px;     
+}
+#one > img {
+    padding-left: 40px;
 }
 h1 {
-    font-size: 24px;;
+    font-size: 30px;;
     font-style: oblique;
-    color: #F2E1CF;
+    /*color: black !important;;
+    color: #666666;*/
     font-weight: bold;
 }
 button:hover {
     background-color: #65C4D6;
+}
+.logo {
+    float: left;
+    text-align: center;
+}
+footer {
+    font-size: 27px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center; 
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
 }
